@@ -1,18 +1,53 @@
 ---
-title: "Test"
-author: "John Doe"
-format: revealjs
-# incremental: true
-# smaller: true
-# scrollable: true
-# center-title-slide: false
-# theme:
-# reference-location: 
-# logo:
-# footer: "This is a footer"
+title: "A New Simulation-Based Estimator for Galaxy Infall Times"
+subtitle: "Inferring the time since a galaxy has entered its group/cluster environment"
+author: "Rizkallah Botros"
+institute: "Department of Physics and Astronomy, McMaster University"
+format: 
+    revealjs:
+        include-in-header:
+        - text: |
+            <style>
+            #title-slide .title {
+            font-family: 'Palatino Linotype', serif;
+            font-size: 1.5em;
+            }
+            .subtitle {
+            color: grey;
+            font-size: 0.8em;
+            }
+            .quarto-title-author-name {
+            font-size: 0.8em;
+            }
+            .reveal .slide-number {
+            top: 20px !important;
+            bottom: unset !important;
+            right: 20px !important;
+            left: unset !important;
+            }
+            </style>
+        slide-number: true
+        chalkboard:
+            buttons: false
+        preview-links: auto
+        controls: true
+        controls-layout: bottom-right
+        
+        # css: styles.css
+        # incremental: true
+        # smaller: true
+        # scrollable: true
+        # center-title-slide: false
+        # theme:
+        # reference-location: 
+        # logo:
+        # footer: "This is a footer"
+
+    # resources:
+
 ---
 
-## Getting up
+## Introduction
 
 :::{.incremental}
 - Turn off alarm
