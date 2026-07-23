@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+.reveal .title {
+    font-family: 'Palatino Linotype', serif;
+    font-size: 1.5em;
+    }
+
+.reveal .subtitle {
+    color: grey;
+    font-size: 0.8em;
+    }
+
+.reveal .quarto-title-author-name {
+    font-size: 0.8em;
+    }
+
+.reveal .slide-number {
+    top: 20px !important;
+    bottom: unset !important;
+    right: 20px !important;
+    left: unset !important;
+    }
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: "Palatino Linotype", sans-serif;
+  font-size: 1.2em;
+}

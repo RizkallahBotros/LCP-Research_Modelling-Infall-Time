@@ -5,35 +5,15 @@ author: "Rizkallah Botros"
 institute: "Department of Physics and Astronomy, McMaster University"
 format: 
     revealjs:
-        include-in-header:
-        - text: |
-            <style>
-            #title-slide .title {
-            font-family: 'Palatino Linotype', serif;
-            font-size: 1.5em;
-            }
-            .subtitle {
-            color: grey;
-            font-size: 0.8em;
-            }
-            .quarto-title-author-name {
-            font-size: 0.8em;
-            }
-            .reveal .slide-number {
-            top: 20px !important;
-            bottom: unset !important;
-            right: 20px !important;
-            left: unset !important;
-            }
-            </style>
         slide-number: true
         chalkboard:
             buttons: false
         preview-links: auto
         controls: true
         controls-layout: bottom-right
-        
-        # css: styles.css
+        css: styles.css
+        theme: [default, styles.css]
+    
         # incremental: true
         # smaller: true
         # scrollable: true
@@ -47,7 +27,7 @@ format:
 
 ---
 
-## Introduction
+## Introduction: Dense Environments
 
 :::{.incremental}
 - Turn off alarm
