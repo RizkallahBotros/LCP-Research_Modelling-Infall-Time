@@ -1,0 +1,49 @@
+---
+title: "Test"
+author: "John Doe"
+format: revealjs
+# incremental: true
+# smaller: true
+# scrollable: true
+# center-title-slide: false
+# theme:
+# reference-location: 
+# logo:
+# footer: "This is a footer"
+---
+
+## Getting up
+
+:::{.incremental}
+- Turn off alarm
+- Get out of bed
+:::
+
+## Going to sleep {footer=false}
+
+- Get in bed
+
+. . .
+
+- Count sheep
+
+:::{.footer}
+custom footer
+:::
+
+## Columns
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column ^[A footnote]
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::: {.aside}
+testing aside class
+:::
+::::
